@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Maichal Singh | Electrical Engineer</title>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+
+body{
+font-family:Arial;
+margin:0;
+background:#f4f6f6;
+}
+
+.header{
+background:#1e3c72;
+color:white;
+text-align:center;
+padding:40px;
+}
+
+.profile{
+width:150px;
+height:150px;
+border-radius:50%;
+border:5px solid white;
+}
+
+.container{
+width:90%;
+margin:auto;
+margin-top:20px;
+}
+
+.section{
+background:white;
+padding:25px;
+margin-bottom:20px;
+border-radius:8px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2{
+color:#1e3c72;
+}
+
+.contact a{
+text-decoration:none;
+color:#1e3c72;
+font-weight:bold;
+}
+
+.download-btn{
+background:#1e3c72;
+color:white;
+padding:12px 25px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+.download-btn:hover{
+background:#2a5298;
+}
+
+.skills-grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:10px;
+}
+
+.skill-box{
+background:#2a5298;
+color:white;
+padding:10px;
+border-radius:5px;
+text-align:center;
+}
+
+.progress{
+background:#ddd;
+border-radius:20px;
+overflow:hidden;
+margin-bottom:12px;
+}
+
+.progress-bar{
+height:20px;
+background:#2a5298;
+animation:load 2s forwards;
+}
+
+.timeline{
+position:relative;
+padding-left:30px;
+}
+
+.timeline::before{
+content:'';
+position:absolute;
+left:10px;
+top:0;
+width:4px;
+height:100%;
+background:#2a5298;
+}
+
+.timeline-item{
+margin-bottom:20px;
+position:relative;
+}
+
+.timeline-item::before{
+content:'';
+position:absolute;
+left:-20px;
+top:5px;
+width:12px;
+height:12px;
+background:#2a5298;
+border-radius:50%;
+}
+
+canvas{
+max-width:600px;
+margin:auto;
+display:block;
+}
+
+.footer{
+text-align:center;
+padding:20px;
+color:#777;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+
+<img src="photo.jpg" class="profile">
+
+<h1>Maichal Singh</h1>
+<p>Electrical Engineer</p>
+
+</div>
+
+<div class="container">
+
+<div class="section contact">
+
+<h2>Contact Information</h2>
+
+<p>📍 14-Dighoge Marog, Ramban, Jammu & Kashmir – 182144</p>
+
+<p>📞 <a href="tel:+918082248704">+91 8082248704</a></p>
+
+<p>📧 <a href="mailto:maichalsinghrajput@gmail.com">
+maichalsinghrajput@gmail.com</a></p>
+
+
+<br>
+
+<a href="resume.pdf" download>
+<button style="
+background:#1e3c72;
+color:white;
+padding:12px 25px;
+border:none;
+border-radius:6px;
+cursor:pointer;
+">
+
+Download Resume
+
+</button>
+</a>
+</div>
+
+<div class="section">
+
+<h2>Skills</h2>
+
+<div class="skills-grid">
+
+<div class="skill-box">MS Office/Documentation</div>
+<div class="skill-box">Electrical Automations{PLC,HMI,VFD,UPS,SMPS,RLC}</div>
+<div class="skill-box">Electrical Power System {CT PT CVT}</div>
+<div class="skill-box">Power Distribution{HT/LT cables PCC,MCC}</div>
+<div class="skill-box">Electrical Machines</div>
+<div class="skill-box">Electrical Maintenance</div>
+<div class="skill-box">Electrical Troubleshooting</div>
+<div class="skill-box">Testing & Commissioning</div>
+<div class="skill-box">Electrical Trainer</div>
+<div class="skill-box">Electrical SENSORS & TRANSDUCTES</div>
+<div class="skill-box">Electrical Safety devices/ relays </div>
+<div class="skill-box">Networks and Communication[IP,router,3g/4g </div>
+
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>Skill Progress</h2>
+
+Electrical Power System
+<div class="progress"><div class="progress-bar" style="width:85%"></div></div>
+
+Electrical Machines
+<div class="progress"><div class="progress-bar" style="width:80%"></div></div>
+
+Electrical Maintenance
+<div class="progress"><div class="progress-bar" style="width:75%"></div></div>
+
+Testing & Commissioning
+<div class="progress"><div class="progress-bar" style="width:70%"></div></div>
+Electrical Automations
+<div class="progress"><div class="progress-bar" style="width:70%"></div></div>
+
+</div>
+
+<div class="section">
+
+<h2>Education</h2>
+
+<ul>
+
+<li><strong>B.Tech Electrical Engineering</strong><br>
+Gurukul Kangri Vishwavidyalaya, Haridwar<br>
+Score: 82.4% (May 2025)</li>
+
+<li><strong>Diploma Electrical Engineering</strong><br>
+Government Polytechnic College Jammu<br>
+Score: 79.3% (May 2022)</li>
+
+<li><strong>High School</strong><br>
+JKBOSE – 45.4% (2017)</li>
+
+</ul>
+
+</div>
+
+<div class="section">
+
+<h2>Internships</h2>
+
+<p><strong>Electric Vehicle Internship – CIIIT Jammu</strong> (Apr 2021 – May 2021)<br>
+Hands-on experience in EV technology, battery management systems and motor control.</p>
+
+<p><strong>JKPDD Substation Training</strong><br>
+Studied substation equipment, load monitoring, power distribution and demand analysis.</p>
+
+</div>
+
+<div class="section">
+
+<h2>Projects</h2>
+
+<p><strong>Optimization of Renewable Energy by Hybrid Systems</strong><br>
+Hybrid solar, wind and battery power system improving efficiency and sustainability.</p>
+
+<p><strong>Smart Home Appliances Control System</strong><br>
+Arduino GSM based automation allowing remote appliance control without internet.</p>
+
+</div>
+
+<div class="section">
+
+<h2>Experience Timeline</h2>
+
+<div class="timeline">
+
+<div class="timeline-item">
+<strong>May 2025 –Nov 2025</strong><br>
+ABM Infocom Pvt Ltd<br>
+As Site Engineer,I have hands on Projects  4G/5G telecom deployment, Air-Fibre installation,Team leading/ Planning tragets,Achievements.
+EV charging stations, HT/LT underground cable systems,distribuctions panals. ip assign, troubleshooting electrical and communication and SMPS installation for telecom towers.
+</div>
+<div class="timeline-item">
+<strong>Nov 2025 –Present</strong><br>
+TRUSTTAGS<br>
+As an Application Engineer, I deliver end-to-end technical solutions, ensuring reliable and optimized application support, system implementation, and customer satisfaction through hands-on expertise and collaboration.
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>Professional Dashboard</h2>
+
+<canvas id="skillsChart"></canvas>
+<br>
+<canvas id="educationChart"></canvas>
+
+</div>
+<section class="section">
+
+<h2>Professional Profile</h2>
+
+<p>Visit my LinkedIn profile for complete professional details and updates.</p>
+
+<a href="https://www.linkedin.com/in/maichal-singh" target="_blank">
+
+<button style="
+background:#0A66C2;
+color:white;
+padding:12px 25px;
+border:none;
+border-radius:6px;
+font-size:16px;
+cursor:pointer;
+">
+
+View LinkedIn Profile
+
+</button>
+
+</a>
+
+</section>
+</div>
+
+<div class="footer">
+
+© 2026 Maichal Singh Portfolio
+
+</div>
+
+<script>
+
+new Chart(document.getElementById('skillsChart'),{
+
+type:'pie',
+
+data:{
+labels:[
+"Power System",
+"Electrical Machines",
+"Maintenance",
+"Testing",
+"MS Office"
+],
+datasets:[{
+data:[25,20,20,20,15],
+backgroundColor:[
+"#1e3c72",
+"#2a5298",
+"#4CAF50",
+"#FF9800",
+"#9C27B0"
+]
+}]
+}
+
+});
+
+new Chart(document.getElementById('educationChart'),{
+
+type:'bar',
+
+data:{
+labels:["High School","Diploma","B.Tech"],
+datasets:[{
+label:"Education %",
+data:[45.4,79.3,82.4],
+backgroundColor:"#2a5298"
+}]
+},
+
+options:{
+scales:{y:{beginAtZero:true,max:100}}
+}
+
+});
+
+</script>
+
+</body>
+</html>
