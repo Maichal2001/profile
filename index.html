@@ -10,7 +10,21 @@
 <link rel="icon" type="image/jpeg" href="logo.jpg">
  
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 
+<script>
+function downloadPDF() {
+  var element = document.body;
+  var opt = {
+    margin: 0.5,
+    filename: 'Maichal-Singh-Resume.pdf',
+    image: { type: 'jpeg', quality: 0.98 },
+    html2canvas: { scale: 2 },
+    jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
+  };
+  html2pdf().set(opt).from(element).save();
+}
+</script>
 <style>
 
 body{
@@ -170,8 +184,8 @@ maichalsinghrajput@gmail.com</a></p>
 
 
 <br>
+<a href="resume.pdf">Download Resume</a>
 
-<a href="resume.pdf" download>
 <button style="
 background:#1e3c72;
 color:white;
@@ -269,7 +283,7 @@ This specialization has equipped you with In-depth knowledge of Siemens PLC and 
 <strong>Nov 2025 –Present</strong><br>
 TRUSTTAGS<br>
 ★ Customer sites- industrial automation systems installation, commissioning and optimization <br>
-★ PLC logic, HMI, VFD, sensors and Modbus communication, faults troubleshooting to Reduce machine downtime <br>
+★ PLC logic, HMI, VFD, sensors and Modbus communication, faults troubleshooting to reduce machine downtime <br>
 ★ Customer requirement fulfil application-specific technical solution <br>
 ★ Installation, testing and on-site training, technical documentation and service reports </div>
 <div class="timeline-item">
@@ -277,7 +291,7 @@ TRUSTTAGS<br>
 ABM Infocom Pvt Ltd<br>
 ★ Supervised installation of 5+ EV chargers, HT/LT underground cables & earthing systems in Jammu-Punjab region<br>
 ★ Performed testing & commissioning of electrical setups, ensuring IS/IEC standards and site safety<br>
-★ Support field team to installation 4G/5G, UBR & Air Fibre sites, conducted LOS/EMF surveys, installed RDU/CDU & SMPS<br>
+★ Supported field team in installation 4G/5G, UBR & Air Fibre sites, conducted LOS/EMF surveys, installed RDU/CDU & SMPS<br>
 ★ Coordinated field teams and performed quality inspection [ATP] for telecom rollout
 </div>
 </div>
